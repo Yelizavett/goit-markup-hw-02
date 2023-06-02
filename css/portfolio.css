@@ -1,15 +1,18 @@
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background: #E5E5E5;
     color:  #434455;
 }
-
-a {
+.link {
     text-decoration: none;
 }
 
 /* navigation */
-.link {
+.list {
+    list-style: none
+}
+
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -18,9 +21,6 @@ a {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.logo-web {
     color: #4D5AE5;
 }
 
@@ -35,24 +35,28 @@ a {
     color: #2E2F42;
 }
 
-.address { font-style: normal;
+.address {
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .navigation-list:hover {
     color: #404BBF;
 }
+
 .address:hover {
     color: #404BBF;
 }
+
 .navigation-list:focus {
     color: #404BBF;
 }
+
 .address:focus {
     color: #404BBF;
 }
-
 /* filter */
 
 .filter-button{ font-family: 'Roboto', sans-serif;
@@ -93,9 +97,27 @@ letter-spacing: 0.02em;
 color: #434455;}
 
 /* footer */
-.footer-text {
+.footer {
     background-color: #2e2f42;
-    font-weight: 400;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-studio {
+    color: #f4f4fd;
+}
+
+.footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;

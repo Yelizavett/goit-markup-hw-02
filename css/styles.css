@@ -1,13 +1,15 @@
-body { font-family: 'roboto', sans-serif; 
-background: #E5E5E5;
+body { font-family: "Roboto", sans-serif;
+background-color: #FFFFFF;
 color: #434455; }
-a { text-decoration: none; }
+:root
+.link{ text-decoration: none; }
 
 /* navigation */
 .list {
     list-style: none
 }
-.link {
+
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -16,8 +18,7 @@ a { text-decoration: none; }
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.logo-web { color: #4D5AE5;}
+    color: #4D5AE5;}
 .logo-studio{ color: #2E2F42;}
 .navigation-list { 
 font-weight: 500;
@@ -42,32 +43,34 @@ color: #434455;
     color: #404BBF;
 }
 /* hero */
-
+.hero{background-color: #2e2f42;}
 .hero-title{font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;}
-.hero-button {font-family: 'Roboto';
+.hero-button {font-family: "Roboto", sans-serif ;
 background: #4D5AE5;
+font-size: 16px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
-cursor: pointer}
+cursor: pointer;}
+
 .hero-button:hover {background: #404BBF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;}
-.hero-button:focus {
-    background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
+
+.hero-button:focus {background: #404BBF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;}
+
 /* skills */
 
 .skills-subtitle{font-weight: 500;
@@ -91,7 +94,8 @@ text-transform: capitalize;
 color: #2E2F42;}
 
 /* Our Team */
-
+.our-team{background-color: #F4F4FD}
+.team-list{background-color: #FFFFFF}
 .name{font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -106,8 +110,23 @@ letter-spacing: 0.02em;
 color: #434455;}
 
 /* footer */
+
+.footer{background-color: #2e2f42;}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-studio {
+    color: #f4f4fd;
+}
 .footer-text{
-background-color: #2e2f42;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;}
