@@ -1,6 +1,7 @@
 body {
     font-family: 'roboto', sans-serif;
     background: #E5E5E5;
+    color:  #434455;
 }
 
 a {
@@ -8,8 +9,8 @@ a {
 }
 
 /* navigation */
-.logo {
-    font-family: 'Raleway';
+.link {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -54,7 +55,8 @@ a {
 
 /* filter */
 
-.filter-button{ font-family: 'Roboto';
+.filter-button{ font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     display: flex;
@@ -70,9 +72,15 @@ a {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: #FFFFFF;
     border: 1px solid #404BBF;}
+.filter-button:focus {
+    background: #404BBF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ color: #FFFFFF;
+ border: 1px solid #404BBF;
+ }
 
 /* Projects */
-
+.list{list-style: none}
 .projects-title{font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -86,6 +94,7 @@ color: #434455;}
 
 /* footer */
 .footer-text {
+    background-color: #2e2f42;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
