@@ -24,8 +24,8 @@ body {
     color: #4D5AE5;
 }
 
-.logo-studio {
-    color: #2E2F42;
+.logo-header {
+    color: #2e2f42;
 }
 
 .navigation-list {
@@ -37,6 +37,9 @@ body {
 
 .address {
     font-style: normal;
+}
+
+.contacts {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
