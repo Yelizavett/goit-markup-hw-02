@@ -1,7 +1,9 @@
 body { font-family: "Roboto", sans-serif;
 background-color: #FFFFFF;
 color: #434455; }
-:root
+:root {
+    --brand-color: ;
+}
 .link{ text-decoration: none; }
 
 /* navigation */
@@ -33,13 +35,13 @@ color: #2E2F42; }
 .navigation-list:hover {
     color: #404BBF;
 }
-.address:hover {
+.contacts:hover {
     color: #404BBF;
 }
 .navigation-list:focus {
     color: #404BBF;
 }
-.address:focus {
+.contacts:focus {
     color: #404BBF;
 }
 
