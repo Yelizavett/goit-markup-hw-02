@@ -19,10 +19,11 @@ color: var(--text); }
 
 .link{ text-decoration: none; }
 
-/* navigation */
 .list {
     list-style: none
 }
+/* header */
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -145,3 +146,66 @@ color: var(--text);}
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--light);}
+
+
+
+
+/* filter */
+
+.filter-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+    background: var(--light);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.filter-button:hover {
+    background: var(--pressed-state);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--white-background);
+    border: 1px solid var(--pressed-state);
+}
+
+.filter-button:focus {
+    background: var(--pressed-state);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--white-background);
+    border: 1px solid var(--pressed-state);
+}
+
+/* Projects */
+.list {
+    list-style: none
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    column-gap: 24px;
+    justify-content: center;
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.projects-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.projects-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
